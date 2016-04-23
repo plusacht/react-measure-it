@@ -1,5 +1,7 @@
 # react-measure-it
 
+[![build status](https://secure.travis-ci.org/plusacht/react-measure-it.png)](http://travis-ci.org/plusacht/react-measure-it)
+
 React higher-order component (HOC) to get dimensions of a container
 
 
@@ -101,5 +103,3 @@ $ npm install react-measure-it
 ```sh
 $ npm test
 ```
-
-

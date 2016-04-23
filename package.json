@@ -9,7 +9,7 @@
   "scripts": {
     "start": "./node_modules/.bin/budo example.jsx --live --open -- -t babelify",
     "build": "npm test && babel index.jsx -o index.js",
-    "doc": "dox -r < index.jsx | doxme --readme > README.md",
+    "doc": "dox -r < index.jsx | doxme --travis --readme > README.md",
     "prepublish": "npm run build && npm run doc",
     "test": "standard"
   },
