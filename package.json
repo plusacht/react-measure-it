@@ -1,7 +1,7 @@
 {
   "name": "react-measure-it",
   "version": "0.1.0",
-  "description": "React [higher-order component](https://gist.github.com/sebmarkbage/ef0bf1f338a7182b6775) to get dimensions of a container",
+  "description": "React higher-order component (HOC) to get dimensions of a container",
   "main": "index.js",
   "standard": {
     "parser": "babel-eslint"
