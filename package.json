@@ -22,7 +22,8 @@
     "dimensions",
     "width",
     "height",
-    "resize"
+    "resize",
+    "react-component"
   ],
   "author": "Claudio Romano",
   "license": "MIT",
