@@ -28,6 +28,15 @@ function defaultGetHeight (element) {
  * @return {function}                   Returns a higher-order component that can be
  * used to enhance a react component `MeasureIt()(MyComponent)`
  *
+ * ### Motivation
+ * Motivation to do this project was that all other dimension calculator would
+ * not work in highly dynamic nested components.
+ *
+ * ### Credits
+ * * https://www.npmjs.com/package/element-resize-event
+ * * https://www.npmjs.com/package/react-dimensions
+ *
+ *
  * ### Live Example
  *
  * Will open a browser window for localhost:9966

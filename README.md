@@ -1,6 +1,6 @@
 # react-measure-it
 
-React [higher-order component](https://gist.github.com/sebmarkbage/ef0bf1f338a7182b6775) to get dimensions of a container
+React higher-order component (HOC) to get dimensions of a container
 
 
 ### `MeasureIt([options], [options.getHeight], [options.getWidth])`
@@ -72,6 +72,15 @@ export default MeasureIt({getWidth: getWidth, getHeight: getHeight})(MyComponent
 
 
 **Returns** `function`, Returns a higher-order component that can be used to enhance a react component `MeasureIt()(MyComponent)`
+
+### Motivation
+Motivation to do this project was that all other dimension calculator would
+not work in highly dynamic nested components.
+
+### Credits
+* https://www.npmjs.com/package/element-resize-event
+* https://www.npmjs.com/package/react-dimensions
+
 
 ### Live Example
 
