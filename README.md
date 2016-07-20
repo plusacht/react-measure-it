@@ -12,7 +12,7 @@ Wraps a react component and adds properties `containerHeight` and
 window resize or ___the container itself is being resized___.
 
 Can be used as a
-[higher-order component](http://babeljs.io/blog/2015/06/07/react-on-es6-plus/#property-initializers).
+[higher-order component](https://medium.com/@franleplant/react-higher-order-components-in-depth-cf9032ee6c3e#.xpzfdia1f).
 
 ### Parameters
 
