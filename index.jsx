@@ -93,7 +93,7 @@ export default function MeasureIt ({ getWidth = defaultGetWidth, getHeight = def
       }
 
       componentDidMount () {
-        this.refs.resizeSensor.contentDocument.defaultView.addEventListener('resize', this.resizeListener.bind(this))
+        this.refs.resizeSensor.ownerDocument.defaultView.addEventListener('resize', this.resizeListener.bind(this))
 
         this.setState({
           containerWidth: getWidth(this),
@@ -102,7 +102,7 @@ export default function MeasureIt ({ getWidth = defaultGetWidth, getHeight = def
       }
 
       componentWillUnmount () {
-        this.refs.resizeSensor.contentDocument.defaultView.removeEventListener('resize', this.resizeListener.bind(this))
+        this.refs.resizeSensor.ownerDocument.defaultView.removeEventListener('resize', this.resizeListener.bind(this))
       }
 
       getWindow () {
