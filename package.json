@@ -1,6 +1,6 @@
 {
   "name": "react-measure-it",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "React higher-order component (HOC) to get dimensions of a container while it resizes",
   "main": "index.js",
   "standard": {
