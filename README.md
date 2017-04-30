@@ -1,6 +1,6 @@
 # react-measure-it
 
-[![build status](https://secure.travis-ci.org/plusacht/react-measure-it.png)](http://travis-ci.org/plusacht/react-measure-it)
+[![build status](https://secure.travis-ci.org/plusacht/react-measure-it.png)](https://travis-ci.org/plusacht/react-measure-it.svg?branch=master)
 
 React higher-order component (HOC) to get dimensions of a container while it resizes
 
